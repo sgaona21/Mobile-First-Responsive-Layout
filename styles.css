@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Overpass', sans-serif;
-    background-color: rgb(247, 245, 245);
     font-size: 16px;
 }
 
+header {
+    background-color: rgb(247, 245, 245);
+}
 h1 {
     text-align: center;
     font-size: 1.5rem;
@@ -23,22 +25,21 @@ nav ul li {
 }
 
 #pfp {
-    width: 100%;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 65%;
+    max-width: 350px;
     background-color: rgb(247, 245, 245) ;
 }
 
 header div p {
     text-align: center;
-    padding: 0 .5rem 3rem;
+    padding: 1rem .5rem 3rem;
 }
 
-main, .container, col, img, #main-backcolor, h2, main p, h3 {
-    background-color: white;
-}
 h2 {
     text-align: center;
     padding-top: 3rem;
@@ -47,9 +48,12 @@ h2 {
 }
 
 .thumbnails {
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
 }
 
 main p, h3 {
@@ -62,4 +66,17 @@ h3 {
 
 main p {
     padding: 0 1rem 2rem 1rem;
+}
+
+h4, .contact-info {
+    text-align: center;
+}
+
+h4 {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.contact-info {
+    padding: 1rem;
 }
