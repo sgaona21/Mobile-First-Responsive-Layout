@@ -91,7 +91,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     font-weight: bold;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     border-top: 1px solid lightgray;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -103,4 +103,27 @@ footer {
 
 .hpc p {
     padding: .5rem;
+}
+
+.hide {
+    display: none;
+}
+.footer-nav p {
+    padding: .5rem;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+
+    .hide {
+        display: initial;
+    }
+
+    .hidebtt {
+        display: none;
+    }
 }
