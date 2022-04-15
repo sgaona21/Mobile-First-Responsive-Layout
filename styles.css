@@ -80,3 +80,27 @@ h4 {
 .contact-info {
     padding: 1rem;
 }
+
+footer {
+    background-color: rgb(247, 245, 245);
+
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 1rem;
+    border-top: 1px solid lightgray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.hpc {
+    display: flex;
+}
+
+.hpc p {
+    padding: .5rem;
+}
