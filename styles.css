@@ -31,7 +31,6 @@ nav ul li {
     margin-top: 2rem;
     margin-bottom: 1rem;
     width: 65%;
-    max-width: 350px;
     background-color: rgb(247, 245, 245) ;
 }
 
@@ -156,7 +155,7 @@ footer {
         margin-right: .5rem;
     }
 
-    .col{
+    .col {
         flex-basis: 50%;
     }
 
@@ -167,6 +166,24 @@ footer {
 
     .closing {
         padding: 0 10rem 0 10rem;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .col {
+        flex-basis: 33%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .navbar-list {
+        align-items: center;
     }
 
 }
